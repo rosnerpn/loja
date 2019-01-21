@@ -13,7 +13,7 @@ $categorias = listaCategorias($conexao);
 			</tr>
 			<tr>
 				<td>Preço</td>
-				<td><input  class="form-control" type="number" name="preco"></td>
+				<td><input  class="form-control" type="text" name="preco"></td>
 			</tr>
 			<tr>
 				<td>Descrição</td>
