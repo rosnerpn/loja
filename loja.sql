@@ -27,3 +27,14 @@ CREATE TABLE `produtos` (
 INSERT INTO categorias (nome) values ('Esportes') ,('Material Escolar');
 INSERT INTO produtos (nome,preco,descricao,categoria_id) VALUES ('Lapis', '1.00', 'lapis do futurao', 2);
 INSERT INTO produtos (nome,preco,descricao,categoria_id) VALUES ('Caneta Azul','1.25','Caneta ponta fina',2);
+
+
+ALTER TABLE categorias CONVERT TO CHARACTER SET utf8 COLLATE utf8;
+
+
+create table usuarios (id int auto_increment primary key,
+	nome varchar(255),
+	email varchar(255),
+	senha varchar(255));
+	
+insert into usuarios (email,senha) values ('rosner@gmail.com',md5(Rosner35));
