@@ -1,6 +1,20 @@
 <?php include("cabecalho.php"); 
  include("conecta.php"); 
+<<<<<<< HEAD
  include("banco-produto.php");
+=======
+ include("banco-produto.php"); ?>
+
+<?php
+	 if(array_key_exists("removido", $_GET) && $_GET["removido"]==true) {
+?>
+		 <p class="alert-success">Produto apagado com sucesso.</p>
+<?php
+	 }
+?>
+
+
+>>>>>>> parent of ef93865... Criado tela de login e Modulo II curso
 
 ?>
 <table class="table table-striped table-bordered">

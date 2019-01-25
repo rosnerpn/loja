@@ -20,7 +20,11 @@ include("mostra-alerta.php"); ?>
 				<ul class="nav navbar-nav">
 					<li><a href="produto-formulario.php">Adiciona Produto</a></li>
 					<li><a href="produto-lista.php">Produtos</a></li>
+<<<<<<< HEAD
                     <li><a href="contato.php">Contato</a></li>
+=======
+					
+>>>>>>> parent of ef93865... Criado tela de login e Modulo II curso
 				</ul>
 			</div>
 		</div>

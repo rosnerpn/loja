@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php include("cabecalho.php"); 
     include ("logica-usuario.php");
  
@@ -24,4 +25,8 @@
     </table>
     </form>
 <?php } ?>
+=======
+<?php include("cabecalho.php"); ?>			
+			<h1>Bem vindo!</h1>
+>>>>>>> parent of ef93865... Criado tela de login e Modulo II curso
 <?php include("rodape.php"); ?>			
